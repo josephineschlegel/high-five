@@ -1,5 +1,46 @@
 /*ALL PAGES STYLING*/
+.main-title {
+font-family: adobe-handwriting-ernie,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+text-align: center;
+}
 /*NAVIGATION*/
+.navigation {
+    display: inline;
+font-family: liebeerika,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+text-align: center;
+text-decoration: none;
+margin: 10%;
+}
+.nav-bar {
+    width: 90%;
+/*    background-color: #e9e4db;*/
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #6c7856;
+}
+/*BANNER*/
+.banner {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 460px;
+}
 /*INDEX PAGE*/
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
