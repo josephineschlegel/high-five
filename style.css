@@ -35,13 +35,18 @@ nav a:hover {
 }
 /*BANNER*/
 .banner {
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     height: 460px;
 }
 /*INDEX PAGE*/
+.home-header {
+    background-color: #f6f5f3;
+    padding-bottom: 40px;
+    margin: 20px;
+}
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
 /*SHOP PAGE MEDIA QUERIES*/
