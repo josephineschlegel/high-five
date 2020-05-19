@@ -1,94 +1,147 @@
 /*ALL PAGES STYLING*/
 .main-title {
-    font-family: adobe-handwriting-ernie, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
+  font-family: shabby-chic,sans-serif;
+font-weight: 400;
+font-style: normal;
+    text-align: left ;
+    margin-top: 30px;
+    margin-left: 3%;
+    font-size: 70px;
+    display: inline;
+    margin-right: 30%;
 }
 
-h1, h2, h3, h4 {
-    font-family: liebeerika, sans-serif;
-    font-weight: 400;
-    font-style: normal;
 
+h1, h2, h3, h4, a {
+font-family: brandon-grotesque,sans-serif;
+font-weight: 100;
+font-style: normal;
+
+}
+p {
+    font-family: brandon-grotesque,sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+a:hover{
+       color: #6c7856;
 }
 footer {
     background-color: #f6f5f3;
-    width: 97%;
+    width: 91.5%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 23px;
+    padding: 20px;
+   line-height: 40px;
+     border-style: solid;
+     border-color: #e8dfd9;
+}
+
+.whitespace {
+
+    background-color: transparent;
 }
 /*NAVIGATION*/
 .navigation {
     display: inline;
-    font-family: liebeerika, sans-serif;
-    font-weight: 400;
+
     font-style: normal;
     font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 10%;
-}
-
-.nav-bar {
-    width: 90%;
-    /*    background-color: #e9e4db;*/
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
     text-decoration: none;
 
 }
+nav {
+
+    margin-top: -0px;
+}
+
 
 nav a {
     text-decoration: none;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 20px;
     color: black;
+    display: inline;
 }
 
 nav a:hover {
     color: #6c7856;
 }
+.cart {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 25px;
+    display: inline-flex;
+    margin-left: 60px;
+}
+.search {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 25px;
+    display: inline;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: white;
+    width: 100%;
+    margin-left: 17px;
 
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 90px;
+}
+.right-footer {
+    align-content: right;
+    text-align: right;
+    display: inline;
+}
 /*BANNER*/
 .banner {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    height: 460px;
+    width: 18%;
+    height: auto;
+    display: inline-flex;
+    height: 450px;
+ padding: 8px;
+}
+.banner:hover {
+    opacity: 70%;
+}
+.banners {
+    margin-left: 3%;
+
 }
 
 /*INDEX PAGE*/
-.home-header {
-    background-color: #f6f5f3;
-    padding-bottom: 40px;
-    margin: 20px;
-}
 
-.previews {
-    background-color: #f6f5f3;
-    padding-bottom: 40px;
-    margin: 20px;
+#whitespace-one {
+    height: 150px;
 }
-
-.preview-title {
-    padding-top: 30px;
-    text-align: center;
-    font-size: 50px;
-}
-.placeholder {
-    display: inline;
-   margin: 20px;
-}
-.example {
+.shop-preview {
+    width: 200px;
+    height: auto;
     padding: 10px;
+
 }
-.more {
-    text-align: right;
-    margin-right: 40px;
-    font-size: 30px;
+.shop {
+       display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 3%;
+ width: 0px;
+
 }
+
+
+
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
 /*SHOP PAGE MEDIA QUERIES*/
