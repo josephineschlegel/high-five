@@ -1,4 +1,8 @@
 /*ALL PAGES STYLING*/
+*{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 .main-title {
   font-family: shabby-chic,sans-serif;
 font-weight: 400;
@@ -6,7 +10,7 @@ font-style: normal;
     text-align: left ;
     margin-top: 30px;
     margin-left: 3%;
-    font-size: 70px;
+    font-size: 50px;
     display: inline;
     margin-right: 30%;
 }
@@ -26,16 +30,53 @@ font-style: normal;
 a:hover{
        color: #6c7856;
 }
+
 footer {
-    background-color: #f6f5f3;
-    width: 91.5%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #e2ebde;
+
+    width: 100%;
+
     font-size: 23px;
-    padding: 20px;
+    padding-left: 60px;
    line-height: 40px;
-     border-style: solid;
-     border-color: #e8dfd9;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+
+
+
+}
+footer, a, h1, h4 {
+    text-align: center;
+    margin-left: -4.5%;
+    font-size: 16px;
+    margin-top: -20px;
+    padding-top: 30px;
+}
+footer, p {
+    margin-top:
+}
+
+
+.footericons{
+    width: 30px;
+    margin: 10px;
+    height: auto;
+    background-color: transparent;
+}
+.footer-title {
+    font-family: shabby-chic,sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 36px;
+    padding: 1px;
+display: inline-flex;
+
+
+}
+
+.rights {
+    font-size: 12px;
 }
 
 .whitespace {
@@ -46,44 +87,40 @@ footer {
 .navigation {
     display: inline;
 
-    font-style: normal;
-    font-size: 30px;
-    text-decoration: none;
-
 }
 nav {
-
-    margin-top: -0px;
+    width: 100%;
 }
 
 
 nav a {
     text-decoration: none;
     text-align: right;
-    padding-right: 30px;
-    font-size: 20px;
+    padding-right: 65px;
+    font-size: 19px;
     color: black;
     display: inline;
+    font-weight: 500;
+    margin-left: -1px
 }
 
 nav a:hover {
     color: #6c7856;
 }
 .cart {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    margin-top: 25px;
+    display: inline;
+}
+.search {
+   width: 18px;
+    height: 18px;
     display: inline;
     margin-right: 10px;
     margin-top: 25px;
     display: inline-flex;
-    margin-left: 60px;
-}
-.search {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    margin-top: 25px;
-    display: inline;
+    margin-left: -15px;
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -91,56 +128,66 @@ nav a:hover {
   top: 0;
   background-color: white;
     width: 100%;
-    margin-left: 17px;
 
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 90px;
+  padding-top: 900px;
+    position:fixed;
+    top:0;
 }
-.right-footer {
-    align-content: right;
-    text-align: right;
-    display: inline;
-}
+
 /*BANNER*/
 .banner {
-    width: 18%;
+    width: 31%;
     height: auto;
     display: inline-flex;
     height: 450px;
- padding: 8px;
-}
-.banner:hover {
-    opacity: 70%;
-}
-.banners {
-    margin-left: 3%;
+ padding: 2px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
+
+}
+
+.banners {
+    margin-left: 0px;
+align-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+.banner-container {
+    margin-right: -4%;
+    margin-left: 4%;
 }
 
 /*INDEX PAGE*/
 
-#whitespace-one {
-    height: 150px;
+.whitespace {
+    height: 90px;
 }
 .shop-preview {
-    width: 200px;
+    width: 350px;
     height: auto;
     padding: 10px;
 
 }
 .shop {
-       display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-left: 3%;
- width: 0px;
+      display: flex;
 
+    margin-left: 12%;
 }
-
-
+.shop-now {
+    margin-left: 56%;
+    margin-top: -410px;
+    text-align: center;
+    width: 300px;
+}
+#ws2 {
+    height: 300px;
+}
 
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
