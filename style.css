@@ -1,14 +1,15 @@
 /*ALL PAGES STYLING*/
-*{
+* {
     scroll-behavior: smooth;
     overflow-x: hidden;
     margin: 0;
 }
+
 .main-title {
-  font-family: shabby-chic,sans-serif;
-font-weight: 400;
-font-style: normal;
-    text-align: left ;
+    font-family: shabby-chic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
     margin-top: 30px;
     margin-left: 3%;
     font-size: 50px;
@@ -16,40 +17,44 @@ font-style: normal;
     margin-right: 30%;
 }
 
-h1, h2, h3, h4, a {
-font-family: brandon-grotesque,sans-serif;
-font-weight: 100;
-font-style: normal;
-text-transform: capitalize;
+h1,
+h2,
+h3,
+h4,
+a {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: capitalize;
 }
 
 p {
-    font-family: brandon-grotesque,sans-serif;
-font-weight: 100;
-font-style: normal;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
-a:hover{
-       color: #6c7856;
+
+a:hover {
+    color: #6c7856;
 }
 
 footer {
     background-color: #e2ebde;
-
     width: 100%;
-
+    overflow: hidden;
+    bottom: 0;
     font-size: 23px;
     padding-left: 60px;
-   line-height: 40px;
+    line-height: 40px;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-       text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
     margin-left: -4.5%;
     font-size: 16px;
-    margin-top: -20px;
+    margin-top: 10px;
     padding-top: 5px;
-
-
 }
+
 .fa {
     padding-right: ;
     margin-top: 25px;
@@ -59,57 +64,63 @@ footer {
     text-decoration: none;
     color: white;
 }
+
 .tiktok {
     width: 15px;
     margin-left: 40px;
     margin-right: 40px;
     display: inline;
 }
-.footer-grid-item>a {
-   text-transform: uppercase;
-     color: #3a3d32;
+
+.footer-grid-item > a {
+    text-transform: uppercase;
+    color: #3a3d32;
     letter-spacing: 1px;
 }
 
-.footer-grid-item>h4 {
-   text-transform: uppercase;
+.footer-grid-item > h4 {
+    text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: -10px;
-     color: #3a3d32;
+    color: #3a3d32;
 }
 
 
-.footericons{
+.footericons {
     width: 25px;
 
     margin-left: 40px;
     height: auto;
     background-color: transparent;
 }
+
 .icons {
     margin-left: -10%;
     margin-top: -20px;
     margin-bottom: -20px;
 }
+
 .footer-title {
-    font-family: shabby-chic,sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: shabby-chic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 40px;
     padding: 1px;
-display: inline-flex;
+    display: inline-flex;
     text-transform: capitalize;
     color: #3a3d32;
 
 }
+
 #newsletter {
-     color: lightgray;
+    color: lightgray;
     background-color: white;
 
 }
+
 #subscribe {
-         background-color: white;
-color: #3a3d32;
+    background-color: white;
+    color: #3a3d32;
 }
 
 
@@ -122,29 +133,38 @@ color: #3a3d32;
 
     background-color: transparent;
 }
+
 .btn {
-     background-color: white;
-  border: none;
-color: black;
+    background-color: white;
+    border: none;
+    color: black;
     padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-    font-family: brandon-grotesque,sans-serif;
-font-weight: 500;
-font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: bold;
     width: 200px;
     align-content: center;
     margin: 5px;
 }
+
+.page-banner {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*NAVIGATION*/
 .navigation {
     display: inline;
-margin-left: -50px;
+    margin-left: -50px;
     position: relative;
 }
+
 nav {
     width: 100%;
     overflow: hidden;
@@ -159,7 +179,7 @@ nav a {
     color: black;
     display: inline;
     font-weight: 500;
-    margin-left:80px;
+    margin-left: 80px;
     text-transform: capitalize;
     display: inline;
 }
@@ -167,9 +187,10 @@ nav a {
 nav a:hover {
     color: #6a7654;
 }
+
 .navbar {
-  overflow: hidden;
-  background-color: white;
+    overflow: hidden;
+    background-color: white;
     position: fixed;
     width: 100%;
     height: 80px;
@@ -177,62 +198,66 @@ nav a:hover {
 
 
 .subnav {
-display: inline;
-     position: absolute;
+    display: inline;
+    position: absolute;
 
 }
 
 .subnav .subnavbtn {
-  font-size: 3vh;
-  border: none;
-  outline: none;
-  color: black;
+    font-size: 3vh;
+    border: none;
+    outline: none;
+    color: black;
 
-  font-family: brandon-grotesque,sans-serif;
-font-weight: 100;
-font-style: normal;
-text-transform: capitalize;
- display: inline-block;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: capitalize;
+    display: inline-block;
 
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
-       color: #6a7654;
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    color: #6a7654;
 }
+
 #home {
     margin-right: 50px;
 }
+
 #portfolio {
     margin-left: 20px;
 }
+
 #about {
     margin-left: -20px;
 }
 
 .subnav-content {
-  display: none;
-  position: relative;
-  left: 0;
-  background-color: white;
-  z-index: 1;
-margin-left: -30%;
+    display: none;
+    position: relative;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    margin-left: -30%;
 }
 
 .subnav-content a {
-  float: left;
-  color: black;
-  text-decoration: none;
+    float: left;
+    color: black;
+    text-decoration: none;
 
 }
 
 .subnav-content a:hover {
 
-  color: black;
-background-color: white;
+    color: black;
+    background-color: white;
 }
 
 .subnav:hover .subnav-content {
-  display: table;
+    display: table;
 }
 
 .cart {
@@ -241,8 +266,9 @@ background-color: white;
     margin-top: 25px;
     display: inline;
 }
+
 .search {
-   width: 18px;
+    width: 18px;
     height: 18px;
     display: inline;
     margin-right: 10px;
@@ -250,20 +276,21 @@ background-color: white;
     display: inline-flex;
     margin-left: 4%;
 }
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
-  background-color: white;
+    position: fixed;
+    top: 0;
+    background-color: white;
     width: 100%;
 
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 900px;
-    position:fixed;
-    top:0;
+    padding-top: 900px;
+    position: fixed;
+    top: 0;
 }
 
 /*BANNER*/
@@ -272,21 +299,22 @@ background-color: white;
     height: auto;
     display: inline-flex;
     height: 450px;
- padding: 2px;
+    padding: 2px;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-position: static;
+    position: static;
     margin-top: 100px;
 
 }
 
 .banners {
     margin-left: -30px;
-align-content: center;
+    align-content: center;
     height: 100%;
     width: 100%;
 
 }
+
 .banner-container {
     margin-right: -4%;
     margin-left: 4%;
@@ -297,44 +325,50 @@ align-content: center;
 .whitespace {
     height: 90px;
 }
+
 .shop-preview {
     width: 350px;
     height: auto;
     padding: 10px;
 
 }
+
 .shop {
-      display: flex;
+    display: flex;
 
     margin-left: 12%;
 }
+
 .shop-now {
     margin-left: 56%;
     margin-top: -350px;
     text-align: center;
     width: 350px;
 }
+
 .shop-now-btn {
-   background-color: #e2ebde;
-  border: none;
-color: black;
+    background-color: #e2ebde;
+    border: none;
+    color: black;
     padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-    font-family: brandon-grotesque,sans-serif;
-font-weight: 500;
-font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: bold;
     width: 130px;
     align-content: center;
     margin-left: -10px;
 
 }
+
 #ws2 {
     height: 300px;
 }
+
 .customize {
     width: 350px;
     text-align: center;
@@ -352,100 +386,125 @@ font-style: bold;
     margin-left: 50%;
     margin-top: -190px;
 }
+
 .custom {
     width: 180px;
     height: 250px;
 
 }
+
 .prints {
     margin-top: -600px;
     margin-bottom: 100px;
 }
+
 .print-img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-   padding-top: -20px;
+    padding-top: -20px;
     height: 450px;
 }
+
 .insta {
     width: 100%;
     margin-left: 25%;
 }
-.insta>h2 {
+
+.insta > h2 {
     margin-left: 20%;
 }
+
 .insta-pic {
     width: 200px;
     height: 200px;
-  display: inline-grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-margin-bottom: 100px;
+    margin-bottom: 100px;
 }
+
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
 /*SHOP PAGE MEDIA QUERIES*/
 /*PORTFOLIO PAGE*/
+#portfolio-title {
+    margin-left: 30%;
+}
+
+.portfolio-title-container {
+    text-align: center;
+}
+
 /*PORTFOLIO PAGE MEDIA QUERIES*/
 /*ABOUT PAGE*/
-.drawing-banner {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .about-header-img {
     width: 100%;
     height: 70vh;
 }
+
 #ws3 {
     height: 40px;
 }
+
 .about-text {
     width: 350px;
-    margin-left:15%;
+    margin-left: 15%;
     margin-top: 110px;
 }
+
 .about-pic {
     width: 350px;
     margin-left: 55%;
 }
+
 .about-pic-container {
     margin-top: -350px;
 }
+
 #about-title {
-text-align: center;
+    text-align: center;
     margin-left: 25%;
 }
+
 .quote {
     width: 100%;
     text-align: center;
 }
+
 .about-pic-two {
     width: 500px;
     margin-left: 18%;
-   height: 282.45px;
+    height: 282.45px;
 }
+
 .about-pic-three {
     width: 300px;
     height: 282.45px;
 }
+
 #ws4 {
     height: 50px;
 }
+
 #ws5 {
     height: 100px;
 }
+
 .connect {
     text-align: center;
     width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
+
 #contact-btn {
     background-color: #e2ebde;
     margin: 40px;
 }
+
 #ws6 {
     height: 100px;
 }
+
 /*ABOUT PAGE MEDIA QUERIES*/
