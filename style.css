@@ -435,6 +435,23 @@ nav a:hover {
     text-align: center;
 }
 
+.portfolio-grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: auto;
+    padding: 50px;
+    margin-left: 12%;
+}
+
+.portfolio-grid-images {
+    width: 250px;
+    padding: 20px;
+
+}
+#next-btn-portfolio {
+    background-color: #e2ebde;
+  margin-left: 66%;
+}
 /*PORTFOLIO PAGE MEDIA QUERIES*/
 /*ABOUT PAGE*/
 
