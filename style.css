@@ -2,6 +2,7 @@
 *{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    margin: 0;
 }
 .main-title {
   font-family: shabby-chic,sans-serif;
@@ -48,6 +49,21 @@ footer {
     padding-top: 5px;
 
 
+}
+.fa {
+    padding-right: ;
+    margin-top: 25px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.tiktok {
+    width: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline;
 }
 .footer-grid-item>a {
    text-transform: uppercase;
@@ -137,28 +153,99 @@ font-style: normal;
 /*NAVIGATION*/
 .navigation {
     display: inline;
-
+margin-left: -50px;
+    position: relative;
 }
 nav {
     width: 100%;
+    overflow: hidden;
 }
 
 
 nav a {
     text-decoration: none;
-    text-align: right;
-    padding-right: 40px;
+
+
     font-size: 3vh;
     color: black;
     display: inline;
     font-weight: 500;
-    margin-left: 1px;
+    margin-left:80px;
     text-transform: capitalize;
+    display: inline;
 }
 
 nav a:hover {
-    color: #6c7856;
+    color: #6a7654;
 }
+.navbar {
+  overflow: hidden;
+  background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+
+.subnav {
+display: inline;
+     position: absolute;
+
+}
+
+.subnav .subnavbtn {
+  font-size: 3vh;
+  border: none;
+  outline: none;
+  color: black;
+
+  font-family: brandon-grotesque,sans-serif;
+font-weight: 100;
+font-style: normal;
+text-transform: capitalize;
+ display: inline-block;
+
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+       color: #6a7654;
+}
+#home {
+    margin-right: 50px;
+}
+#portfolio {
+    margin-left: 20px;
+}
+#about {
+    margin-left: -20px;
+}
+
+.subnav-content {
+  display: none;
+  position: relative;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+margin-left: -30%;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+
+}
+
+.subnav-content a:hover {
+
+  color: black;
+background-color: white;
+}
+
+.subnav:hover .subnav-content {
+  display: table;
+}
+
 .cart {
     width: 18px;
     height: 18px;
@@ -172,7 +259,7 @@ nav a:hover {
     margin-right: 10px;
     margin-top: 25px;
     display: inline-flex;
-    margin-left: -15px;
+    margin-left: 4%;
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -199,7 +286,8 @@ nav a:hover {
  padding: 2px;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+position: static;
+    margin-top: 100px;
 
 }
 
@@ -233,9 +321,9 @@ align-content: center;
 }
 .shop-now {
     margin-left: 56%;
-    margin-top: -410px;
+    margin-top: -350px;
     text-align: center;
-    width: 300px;
+    width: 350px;
 }
 .shop-now-btn {
    background-color: #e2ebde;
@@ -259,9 +347,10 @@ font-style: bold;
     height: 300px;
 }
 .customize {
-    width: 300px;
+    width: 350px;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 13%;
+
 
 }
 
@@ -269,14 +358,15 @@ font-style: bold;
 .customize-imgs {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 40%;
+    width: 43%;
     height: 1000px;
-    margin-left: 45%;
-    margin-top: -600px;
+    margin-left: 50%;
+    margin-top: -190px;
 }
 .custom {
-    width: 160px;
+    width: 180px;
     height: 250px;
+
 }
 .prints {
     margin-top: -600px;
