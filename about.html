@@ -6,20 +6,27 @@
     <title>Tate Mckenzie</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/xxg2xcr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header class="home-header">
+    <header class="header">
 
         <nav>
 
-            <div id="navbar">
+            <div class="navbar" id="navbar">
                 <ul>
                     <h1 class="main-title">Tate McKenzie</h1>
-                    <li class="navigation"><a href="index.html">Home</a></li>
-                    <li class="navigation"><a href="shop.html">Shop</a></li>
-                    <li class="navigation"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="navigation"><a href="about.html">About</a></li>
+                    <li class="navigation" id="home"><a href="index.html">Home</a></li>
+                    <div class="subnav" >
+    <button class="subnavbtn" id="shop">Shop <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="shop.html">Prints</a>
+      <a href="#team">Custom</a>
+    </div>
+  </div>
+                    <li class="navigation" id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="navigation" id="about"><a href="about.html">About</a></li>
 
                     <img class="search" src="imgs/search.png" alt="Search Icon">
                     <img src="imgs/cart.png" class="cart" alt="Shopping Cart Icon">
@@ -28,49 +35,16 @@
 
             </div>
         </nav>
-        <section class="banner-container">
-            <section class="banners">
-                <img class="banner" alt="Art Preview" src="imgs/newbanner1.png">
-                <img class="banner" alt="Art Preview" src="imgs/newbanner2.png">
-                <img class="banner" alt="Art Preview" src="imgs/newbanner3.png">
-
-
-            </section>
-        </section>
+     <img src="imgs/draw.png" alt="Drawing" class="about-header-img">
     </header>
-    <section class="whitespace" id="whitespace-one"></section>
-    <aside class="shop">
-        <img class="shop-preview" alt="Preview Of Products" src="imgs/shopartex.png">
-    </aside>
-    <aside class="shop-now">
-        <h2>Shop Prints</h2>
-        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard.</p>
-        <button class="shop-now-btn">SHOP NOW</button>
-    </aside>
-
-    <section class="whitespace" id="ws2"></section>
-    <aside class="customize">
-        <h2 class="customise-title">Customize</h2>
-        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard.</p>
-        <button class="shop-now-btn">SHOP NOW</button>
-    </aside>
-    <aside class="customize-imgs">
-        <img src="imgs/banner2.jpg" alt="Customizable Artwork" class="custom">
-        <img src="imgs/banner1.jpg" alt="Customizable Artwork" class="custom">
-        <img src="imgs/banner3.jpg" alt="Customizable Artwork" class="custom">
-    </aside>
-    <section class="prints">
-    <img class="print-img" src="imgs/homepageprint.png" alt="Prints Example">
-    </section>
-    <section class="insta">
-        <h2>Instagram</h2>
-        <div class="insta-preview">
-        <img src="imgs/banner1.jpg" class="insta-pic" alt="picture from Instagram">
-        <img src="imgs/banner2.jpg" class="insta-pic" alt="picture from Instagram">
-        <img src="imgs/banner3.jpg" class="insta-pic" alt="picture from Instagram">
-        </div>
-    </section>
+   <h1 class="main-title">About</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed porttitor eros, vitae maximus nibh. Duis faucibus diam nisi, et facilisis orci luctus in. Maecenas et mauris non dui mattis laoreet ut at metus. Duis eget risus vehicula, vulputate justo at, molestie ipsum. Integer in nunc vel arcu sagittis convallis vel sed eros. Vestibulum sit amet lectus eu libero eleifend pharetra nec nec sapien. Quisque eleifend augue at dolor convallis, sagittis vulputate mauris tristique. Pellentesque ac enim eu libero aliquet semper eu at lacus. Donec lacinia tincidunt sem et euismod. Vestibulum pulvinar et risus ac euismod. Donec gravida mauris non pulvinar pretium. Nunc non justo nec est egestas tincidunt. Donec condimentum, ipsum sit amet pharetra consequat, sapien sapien consequat tortor, ut pharetra sapien sapien at ante.
+<br>
+Sed dictum ultrices neque sit amet molestie. Mauris rutrum ante odio, quis tempus eros convallis et. Donec sodales tortor sed felis vulputate facilisis. Vestibulum lobortis a arcu vel bibendum. Vivamus auctor ligula vel condimentum posuere. Ut auctor augue id odio imperdiet ullamcorper. Etiam at enim sit amet est laoreet sollicitudin. Maecenas placerat, arcu in pulvinar efficitur, orci libero maximus mi, sollicitudin fringilla lorem tortor non risus. Etiam quis sapien ut leo facilisis dignissim id in leo. Quisque laoreet, nunc eget tempus ornare, odio sem congue urna, sollicitudin hendrerit erat elit nec neque. Proin vel ex arcu.</p>
+    <img class="about-pic" alt="Picture of Tate" src="imgs/exdog.png">
+    <div class="whitespace" id="ws3"></div>
     <footer>
+
         <div class="footer-grid-item"><br>
             <a>Privacy Policy</a><br>
             <a>Terms and Conditions</a><br>
@@ -79,21 +53,17 @@
         <div class="footer-grid-item">
             <h1 class="footer-title">Tate McKenzie</h1><br>
             <div class="icons">
-                <a href="https://www.tiktok.com/en/">
-                    <img src="imgs/tiktokicon.png" alt="TikTok" class="footericons" id="footer-tiktok">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="imgs/instalogo.png" alt="Instagram" class="footericons" id="footer-instagram">
-                </a>
-                <a href="www.facebook.com">
-                    <img src="imgs/facebooklogo.png" alt="Facebook" class="footericons" id="footer-facebook">
-                </a>
-            </div>
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#"><img src="imgs/tiktok.svg" alt="tiktok" class="tiktok"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+
             <h4>Newsletter</h4>
             <button class="newsletter">NAME@EMAIL.COM</button><br>
             <button class="subscribe">SUBSCRIBE</button>
             <p class="rights">2020 All Rights Reserved</p>
-        </div>
+</div>
         <div class="footer-grid-item"><br>
             <a>Shipping Info</a><br>
             <a> Return Policy</a><br>
