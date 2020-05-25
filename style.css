@@ -204,9 +204,11 @@ nav a:hover {
     position: absolute;
 
 }
+
 .subnavbtn {
     margin-top: 18px
 }
+
 .subnav .subnavbtn {
     font-size: 3vh;
     border: none;
@@ -218,7 +220,7 @@ nav a:hover {
     font-style: normal;
     text-transform: capitalize;
     display: inline;
-background-color: transparent;
+    background-color: transparent;
     position: relative;
 }
 
@@ -289,7 +291,7 @@ background-color: transparent;
     top: 0;
     background-color: white;
     width: 100%;
- margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -434,26 +436,29 @@ background-color: transparent;
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
 .shop-banner {
-       height: 70vh;
+    height: 70vh;
     width: 100%;
     margin-top: 100px;
 }
+
 .shop-banner-container {
-  width: 95%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 
 }
+
 .shop-title-container {
     text-align: center;
     margin-top: 40px;
 }
+
 .shop-grid {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-right: auto;
     padding: 50px;
-   margin-left: 6%;
+    margin-left: 6%;
 }
 
 .shop-grid-images {
@@ -461,13 +466,41 @@ background-color: transparent;
     padding: 20px;
 
 }
+
 #next-btn-shop {
     background-color: #e2ebde;
-  margin-left: 75%;
+    margin-left: 75%;
     margin-bottom: 40px;
 }
+
 /*SHOP PAGE MEDIA QUERIES*/
 /*CUSTOM PAGE*/
+.custom-banner-container {
+     width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.custom-banner {
+    height: 60vh;
+    width: 100%;
+    margin-top: 100px;
+}
+.custom-img {
+    width: 500px;
+    display: flex;
+    margin-left: 15%;
+
+}
+
+.custom-text-title-container {
+    width: 350px;
+  margin-left: 53%;
+margin-top: -560px;
+    margin-bottom: 300px;
+    text-align: center;
+
+}
 /*PORTFOLIO PAGE*/
 
 
@@ -478,7 +511,7 @@ background-color: transparent;
 
 .portfolio-grid {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-right: auto;
     padding: 50px;
     margin-left: 12%;
@@ -489,10 +522,12 @@ background-color: transparent;
     padding: 20px;
 
 }
+
 #next-btn-portfolio {
     background-color: #e2ebde;
-  margin-left: 66%;
+    margin-left: 66%;
 }
+
 /*PORTFOLIO PAGE MEDIA QUERIES*/
 /*ABOUT PAGE*/
 
