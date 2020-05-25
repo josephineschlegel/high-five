@@ -161,13 +161,15 @@ footer {
 /*NAVIGATION*/
 .navigation {
     display: inline;
-    margin-left: -50px;
+    margin-left: 0px;
     position: relative;
+
 }
 
 nav {
     width: 100%;
     overflow: hidden;
+    padding-bottom: 10px;
 }
 
 
@@ -189,7 +191,7 @@ nav a:hover {
 }
 
 .navbar {
-    overflow: hidden;
+
     background-color: white;
     position: fixed;
     width: 100%;
@@ -202,7 +204,9 @@ nav a:hover {
     position: absolute;
 
 }
-
+.subnavbtn {
+    margin-top: 18px
+}
 .subnav .subnavbtn {
     font-size: 3vh;
     border: none;
@@ -213,8 +217,9 @@ nav a:hover {
     font-weight: 100;
     font-style: normal;
     text-transform: capitalize;
-    display: inline-block;
-
+    display: inline;
+background-color: transparent;
+    position: relative;
 }
 
 .navbar a:hover,
@@ -231,7 +236,7 @@ nav a:hover {
 }
 
 #about {
-    margin-left: -20px;
+    margin-left: -35px;
 }
 
 .subnav-content {
@@ -240,7 +245,7 @@ nav a:hover {
     left: 0;
     background-color: white;
     z-index: 1;
-    margin-left: -30%;
+    margin-left: -26%;
 }
 
 .subnav-content a {
@@ -252,12 +257,13 @@ nav a:hover {
 
 .subnav-content a:hover {
 
-    color: black;
+    color: #6a7654;
     background-color: white;
 }
 
 .subnav:hover .subnav-content {
-    display: table;
+    display: flex;
+    width: 100%;
 }
 
 .cart {
@@ -283,7 +289,7 @@ nav a:hover {
     top: 0;
     background-color: white;
     width: 100%;
-
+ margin-bottom: 40px;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -291,27 +297,28 @@ nav a:hover {
     padding-top: 900px;
     position: fixed;
     top: 0;
+
+
 }
 
 /*BANNER*/
 .banner {
     width: 31%;
-    height: auto;
-    display: inline-flex;
     height: 450px;
     padding: 2px;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: static;
-    margin-top: 100px;
+    margin-top: 130px;
 
 }
 
 .banners {
-    margin-left: -30px;
+    margin-left: -10px;
+    margin-right: auto;
     align-content: center;
-    height: 100%;
-    width: 100%;
+    height: 700px;
+    width: 98%;
 
 }
 
@@ -337,6 +344,7 @@ nav a:hover {
     display: flex;
 
     margin-left: 12%;
+    background-color: transparent;
 }
 
 .shop-now {
@@ -425,19 +433,52 @@ nav a:hover {
 
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
-/*SHOP PAGE MEDIA QUERIES*/
-/*PORTFOLIO PAGE*/
-#portfolio-title {
-    margin-left: 30%;
+.shop-banner {
+       height: 70vh;
+    width: 100%;
+    margin-top: 100px;
 }
+.shop-banner-container {
+  width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.shop-title-container {
+    text-align: center;
+    margin-top: 40px;
+}
+.shop-grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-right: auto;
+    padding: 50px;
+   margin-left: 6%;
+}
+
+.shop-grid-images {
+    width: 250px;
+    padding: 20px;
+
+}
+#next-btn-shop {
+    background-color: #e2ebde;
+  margin-left: 75%;
+    margin-bottom: 40px;
+}
+/*SHOP PAGE MEDIA QUERIES*/
+/*CUSTOM PAGE*/
+/*PORTFOLIO PAGE*/
+
 
 .portfolio-title-container {
     text-align: center;
+    width: 100%;
 }
 
 .portfolio-grid {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     margin-right: auto;
     padding: 50px;
     margin-left: 12%;
