@@ -1,8 +1,14 @@
 /*ALL PAGES STYLING*/
 * {
     scroll-behavior: smooth;
-    overflow-x: hidden;
     margin: 0;
+    overflow-x: hidden;
+
+}
+
+.whitespace {
+    height: 100px;
+    background-color: transparent;
 }
 
 .main-title {
@@ -11,10 +17,10 @@
     font-style: normal;
     text-align: left;
     margin-top: 30px;
-    margin-left: 3%;
+    margin-left: 1%;
     font-size: 50px;
     display: inline;
-    margin-right: 30%;
+    margin-right: 34%;
 }
 
 h1,
@@ -110,7 +116,7 @@ footer {
     display: inline-flex;
     text-transform: capitalize;
     color: #3a3d32;
-
+    overflow: hidden;
 }
 
 #newsletter {
@@ -130,10 +136,7 @@ footer {
     margin-top: -10px;
 }
 
-.whitespace {
 
-    background-color: transparent;
-}
 
 .btn {
     background-color: white;
@@ -171,6 +174,7 @@ nav {
     width: 100%;
     overflow: hidden;
     padding-bottom: 10px;
+
 }
 
 
@@ -184,6 +188,7 @@ nav a {
     font-weight: 500;
     margin-left: 80px;
     text-transform: capitalize;
+
     display: inline;
 }
 
@@ -306,35 +311,33 @@ nav a:hover {
 
 /*BANNER*/
 .banner {
-    width: 31%;
-    height: 450px;
+    width: 100%;
+    height: 550px;
     padding: 2px;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: static;
-    margin-top: 130px;
-
 }
 
 .banners {
-    margin-left: -10px;
-    margin-right: auto;
     align-content: center;
-    height: 700px;
-    width: 98%;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 
 }
 
 .banner-container {
-    margin-right: -4%;
-    margin-left: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    margin-top: 0;
 }
 
 /*INDEX PAGE*/
 
-.whitespace {
-    height: 90px;
-}
+
 
 .shop-preview {
     width: 350px;
@@ -343,18 +346,32 @@ nav a:hover {
 
 }
 
-.shop {
-    display: flex;
+.shop-preview-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    justify-items: center;
 
-    margin-left: 12%;
+}
+
+.shop {
+
+
+
     background-color: transparent;
 }
 
 .shop-now {
-    margin-left: 56%;
-    margin-top: -350px;
+
+
     text-align: center;
     width: 350px;
+    align-items: center;
+    margin-top: 25%;
 }
 
 .shop-now-btn {
@@ -376,37 +393,45 @@ nav a:hover {
 
 }
 
-#ws2 {
-    height: 300px;
+.custom-preview-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+
+
 }
 
 .customize {
     width: 350px;
     text-align: center;
-    margin-left: 13%;
-
 
 }
 
 
 .customize-imgs {
     display: inline-grid;
+    width: auto;
+    height: auto;
+    justify-items: center;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 43%;
-    height: 1000px;
-    margin-left: 50%;
-    margin-top: -190px;
 }
 
 .custom {
-    width: 180px;
-    height: 250px;
+    width: 140px;
+    height: 200px;
 
 }
 
 .prints {
-    margin-top: -600px;
-    margin-bottom: 100px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .print-img {
@@ -414,27 +439,150 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     padding-top: -20px;
-    height: 450px;
+    height: 600px;
+}
+
+.insta-preview-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+
 }
 
 .insta {
     width: 100%;
-    margin-left: 25%;
+    display: inline-grid;
+    grid-column: 2;
 }
 
 .insta > h2 {
-    margin-left: 20%;
+    padding-bottom: 30px;
 }
 
 .insta-pic {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 100px;
 }
 
 /*INDEX PAGE MEDIA QUERIES*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .navigation {
+        display: none;
+    }
+    .cart {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .subnav .subnavbtn {
+        display: none;
+    }
+
+    .banner {
+        width: 95%;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banners {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+
+    #ipb3 {
+        display: none;
+    }
+
+    #ipb2 {
+        display: none;
+    }
+
+    .shop-preview-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .custom-preview-grid {
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+    }
+    .customize {
+        margin-bottom: 40px;
+    }
+    .prints {
+        margin-top: 100px;
+    }
+    .insta-preview-grid {
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    footer {
+       font-size: 13px;
+        grid-template-columns: 1fr 1fr;
+       bottom: 0;
+        padding: 20px;
+    }
+    .shop-preview {
+        width: 300px;
+        margin-top: 10px;
+    }
+    .whitespace {
+        display: none;
+    }
+    #footer-item-mobile-hide {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .shop-preview-grid {}
+
+    .custom-preview-grid {}
+
+    .insta-preview-grid {}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .shop-preview-grid {}
+
+    .custom-preview-grid {}
+
+    .insta-preview-grid {}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .shop-preview-grid {}
+
+    .custom-preview-grid {}
+
+    .insta-preview-grid {}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .insta-preview-grid {}
+}
+
 /*SHOP PAGE*/
 .shop-banner {
     height: 70vh;
@@ -477,16 +625,18 @@ nav a:hover {
 /*SHOP PAGE MEDIA QUERIES*/
 /*CUSTOM PAGE*/
 .custom-banner-container {
-     width: 95%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 
 }
+
 .custom-banner {
     height: 60vh;
     width: 100%;
     margin-top: 100px;
 }
+
 .custom-img {
     width: 500px;
     display: flex;
@@ -496,12 +646,13 @@ nav a:hover {
 
 .custom-text-title-container {
     width: 350px;
-  margin-left: 53%;
-margin-top: -560px;
+    margin-left: 53%;
+    margin-top: -560px;
     margin-bottom: 300px;
     text-align: center;
 
 }
+
 /*PORTFOLIO PAGE*/
 
 
@@ -537,9 +688,7 @@ margin-top: -560px;
     height: 70vh;
 }
 
-#ws3 {
-    height: 40px;
-}
+
 
 .about-text {
     width: 350px;
@@ -577,13 +726,7 @@ margin-top: -560px;
     height: 282.45px;
 }
 
-#ws4 {
-    height: 50px;
-}
 
-#ws5 {
-    height: 100px;
-}
 
 .connect {
     text-align: center;
@@ -597,8 +740,6 @@ margin-top: -560px;
     margin: 40px;
 }
 
-#ws6 {
-    height: 100px;
-}
+
 
 /*ABOUT PAGE MEDIA QUERIES*/
