@@ -11,3 +11,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +20,13 @@
                 <ul>
                     <h1 class="main-title">Tate McKenzie</h1>
                     <li class="navigation" id="home"><a href="index.html">Home</a></li>
-                    <div class="subnav" >
-    <button class="subnavbtn" id="shop">Shop</button>
-    <div class="subnav-content">
-      <a href="shop.html">Prints</a><br>
-      <a href="custom.html">Custom</a>
-    </div>
-  </div>
+                    <div class="subnav">
+                        <button class="subnavbtn" id="shop">Shop</button>
+                        <div class="subnav-content">
+                            <a href="shop.html">Prints</a><br>
+                            <a href="custom.html">Custom</a>
+                        </div>
+                    </div>
                     <li class="navigation" id="portfolio"><a href="portfolio.html">Portfolio</a></li>
                     <li class="navigation" id="about"><a href="about.html">About</a></li>
 
@@ -36,68 +37,62 @@
 
             </div>
         </nav>
-<section class="shop-banner-container">
-        <img class="shop-banner" src="imgs/shop.banner.png" alt="Example of Product">
+        <section class="shop-banner-container">
+            <img class="shop-banner" src="imgs/shop.banner.png" alt="Example of Product">
         </section>
     </header>
     <section class="shop-title-container">
-<h2 class="page-title">Prints</h2>
-    <p class="description">Prints are available framed, on paper, phone cases, tote bags, pillows, mugs and on stickers.</p>
-        </section>
-<section class="shop-grid-container">
-    <section class="shop-grid">
-        <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-           <img class="shop-grid-images" alt="Product" src="imgs/banner5.jpg">
-
+        <h2 class="page-title">Prints</h2>
+        <p class="description">Prints are available framed, on paper, phone cases, tote bags, pillows, mugs and on stickers.</p>
     </section>
-  <button class="btn" id="next-btn-shop">Next Page</button>
+<!--    <section class="shop-grid-container">-->
+        <section class="shop-grid">
 
-    <footer>
+            <main></main>
+            <template id="oneItem">
+                <img class="oneImage">
+                <h1></h1>
+                <div class="price">$ <span></span></div>
+            </template>
 
-        <div class="footer-grid-item"><br>
-            <a>Privacy Policy</a><br>
-            <a>Terms and Conditions</a><br>
-            <a>Contact</a><br>
-        </div>
-        <div class="footer-grid-item">
-            <h1 class="footer-title">Tate McKenzie</h1><br>
-            <div class="icons">
 
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#"><img src="imgs/tiktok.svg" alt="tiktok" class="tiktok"></a>
-            <a href="#" class="fa fa-instagram"></a>
-        </div>
+ </section>
+<!--       </section>-->
+        <button class="btn" id="next-btn-shop">Next Page</button>
 
-            <h4>Newsletter</h4>
-            <button id="newsletter" class="btn">NAME@EMAIL.COM</button><br>
-            <button id="subscribe" class="btn">SUBSCRIBE</button>
-            <p class="rights">2020 All Rights Reserved</p>
-</div>
-        <div class="footer-grid-item"><br>
-            <a>Shipping Info</a><br>
-            <a> Return Policy</a><br>
-            <a>FAQ</a><br>
 
-        </div>
+        <footer>
 
-    </footer>
-    <script src="script.js"></script>
-</body></html>
+            <div class="footer-grid-item"><br>
+                <a>Privacy Policy</a><br>
+                <a>Terms and Conditions</a><br>
+                <a>Contact</a><br>
+            </div>
+            <div class="footer-grid-item">
+                <h1 class="footer-title">Tate McKenzie</h1><br>
+                <div class="icons">
+
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#"><img src="imgs/tiktok.svg" alt="tiktok" class="tiktok"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+
+                <h4>Newsletter</h4>
+                <button id="newsletter" class="btn">NAME@EMAIL.COM</button><br>
+                <button id="subscribe" class="btn">SUBSCRIBE</button>
+                <p class="rights">2020 All Rights Reserved</p>
+            </div>
+            <div class="footer-grid-item"><br>
+                <a>Shipping Info</a><br>
+                <a> Return Policy</a><br>
+                <a>FAQ</a><br>
+
+            </div>
+
+        </footer>
+        <script src="script.js"></script>
+        <script src="shop.js"></script>
+
+</body>
+
+</html>
