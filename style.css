@@ -423,6 +423,96 @@ nav a:hover {
     margin-bottom: 100px;
 }
 
+
+
+
+
+
+/*  #### instagram  short feed  #####*/
+
+
+
+.instaWrapper {
+    margin-bottom: 5rem;
+
+}
+
+
+.instaFeed {
+/*    margin: auto;*/
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    gap: 1rem;
+    grid-auto-rows: 1fr;
+    justify-content: center;
+}
+
+
+.linkTitle {
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.postImg {
+    max-width: 200px;
+}
+
+/*##########################################*/
+
+
+
+
+
+
+
+/*  #### instagram  long feed  #####*/
+
+
+
+.instaWrapperPortofolio {
+    margin-bottom: 5rem;
+
+}
+
+
+.instaFeedPortofolio {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+    gap: 2rem;
+    grid-auto-rows: 1fr;
+    justify-content: center;
+}
+
+
+.linkTitlePortofolio {
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.postImgPortofolio {
+    max-width: 100px;
+}
+
+
+/*##########################################*/
+
+
+
+
+
+
+
+
+
 /*INDEX PAGE MEDIA QUERIES*/
 /*SHOP PAGE*/
 /*SHOP PAGE MEDIA QUERIES*/
@@ -448,10 +538,12 @@ nav a:hover {
     padding: 20px;
 
 }
+
 #next-btn-portfolio {
     background-color: #e2ebde;
-  margin-left: 66%;
+    margin-left: 66%;
 }
+
 /*PORTFOLIO PAGE MEDIA QUERIES*/
 /*ABOUT PAGE*/
 
